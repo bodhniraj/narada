@@ -211,12 +211,12 @@ Here are the **8 essential pages** you need to build for Narada AI, categorized 
 - [x] Navbar
 - [x] Hero Section
 - [x] Social Proof 
-- [ ] Problem Section (Pain Trigger) #9
-- [ ] Solution Section (Detect -> Alert -> Solve) #10
-- [ ] Features Section (Bento Grid) (Today) #5
-- [ ] How It Works (3 Steps) #11
-- [ ] Pricing Section (Today) #4
-- [ ] Testimonials Section #12
+- [ ] Problem Section (Pain Trigger) #3
+- [ ] Solution Section (Detect -> Alert -> Solve) #4
+- [ ] Features Section (Bento Grid) (Today) #2
+- [ ] How It Works (3 Steps) #5
+- [ ] Pricing Section (Today) #1
+- [ ] Testimonials Section #6
 - [x] FAQ (Today)
 - [x] Final CTA 
 - [x] Footer
