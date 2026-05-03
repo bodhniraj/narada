@@ -6,6 +6,7 @@ import Proof from "./components/sections/Proof";
 import Faq from "./components/sections/Faq";
 import Cta from "./components/sections/Cta";
 import Pricing from "./components/sections/Pricing";
+import Features from "./components/sections/Features";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <Hero />
       <Proof />
+      <Features />
       <Pricing />
       <Faq />
       <Cta />
