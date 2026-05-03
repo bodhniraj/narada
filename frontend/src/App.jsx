@@ -10,6 +10,7 @@ import Features from "./components/sections/Features";
 import Workflow from "./components/sections/Workflow";
 import Problem from "./components/sections/Problem";
 import Solution from "./components/sections/Solution";
+import Testimonial from "./components/sections/Testimonial";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Features />
       <Workflow />
       <Pricing />
+      <Testimonial />
       <Faq />
       <Cta />
       <Footer />

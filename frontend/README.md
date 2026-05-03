@@ -216,6 +216,7 @@ Here are the **8 essential pages** you need to build for Narada AI, categorized 
 - [x] Features Section (Bento Grid) 
 - [x] How It Works (3 Steps) 
 - [x] Pricing Section 
+- [x] Testimonial Section
 - [x] FAQ 
 - [x] Final CTA 
 - [x] Footer
