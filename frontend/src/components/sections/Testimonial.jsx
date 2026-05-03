@@ -28,10 +28,10 @@ const testimonialData = {
   startups: [
     {
       id: 4,
-      name: "PeaceVilla",
-      role: "SaaS Founder",
+      name: "Loreal",
+      role: "Founder",
       text: "Saved us $2,000 in lost revenue during our Product Hunt launch. The AI logs are a lifesaver.",
-      img: "https://images.unsplash.com/photo-1601288496920-b6154fe3626a?q=80&w=800",
+      img: "https://images.unsplash.com/photo-1504276048855-f3d60e69632f",
     },
     {
       id: 5,
@@ -42,10 +42,10 @@ const testimonialData = {
     },
     {
       id: 10,
-      name: "Loreal",
-      role: "Founder",
+      name: "PeaceVilla",
+      role: "SaaS Founder",
       text: "Saved us $2,000 in lost revenue during our Product Hunt launch. The AI logs are a lifesaver.",
-      img: "https://images.unsplash.com/photo-1504276048855-f3d60e69632f",
+      img: "https://images.unsplash.com/photo-1601288496920-b6154fe3626a?q=80&w=800",
     },
   ],
   business: [

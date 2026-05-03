@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "motion/react";
 
 const pricingPlans = [
   {
@@ -8,7 +9,7 @@ const pricingPlans = [
     price: "$5",
     unit: "/month",
     spots: "For Startups",
-    img: "/assets/img/first-pricing.jpg", // DIFFERENT IMAGE 1
+    img: "/assets/img/first-pricing.jpg",
     features: [
       "Up to 5 Monitors",
       "1-minute check intervals",
@@ -27,7 +28,7 @@ const pricingPlans = [
     price: "$12",
     unit: "/month",
     spots: "For Businesses",
-    img: "/assets/img/second.jpg", // DIFFERENT IMAGE 2
+    img: "/assets/img/second.jpg",
     features: [
       "Up to 25 Monitors",
       "30-second check intervals",
@@ -46,7 +47,7 @@ const pricingPlans = [
     price: "$30",
     unit: "/month",
     spots: "For Enterprises",
-    img: "/assets/img/third-pricing.jpg", // DIFFERENT IMAGE 3
+    img: "/assets/img/third-pricing.jpg",
     features: [
       "Unlimited Monitors",
       "10-second check intervals",
@@ -61,17 +62,28 @@ const pricingPlans = [
 ];
 
 const Pricing = () => {
+  const fadeUp = {
+    initial: { opacity: 0, y: 30 },
+    whileInView: { opacity: 1, y: 0 },
+    viewport: { once: true },
+    transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] },
+  };
+
   return (
     <section className="pricing" id="pricing">
-      <h2 className="fade-up">
+      <motion.h2 {...fadeUp}>
         <span>Pricing</span>
-      </h2>
+      </motion.h2>
 
       <div className="bentogrid">
         <div className="bento">
-          {pricingPlans.map((plan) => (
-            <div key={plan.id} className={plan.id}>
-              {/* Added dynamic inline style here */}
+          {pricingPlans.map((plan, index) => (
+            <motion.div
+              key={plan.id}
+              className={plan.id}
+              {...fadeUp}
+              transition={{ ...fadeUp.transition, delay: index * 0.1 }}
+            >
               <div
                 className="top"
                 style={{
@@ -112,7 +124,7 @@ const Pricing = () => {
                   </p>
                 ))}
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>

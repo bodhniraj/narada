@@ -11,18 +11,11 @@
 
     // Section Heading
     h2 {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0 1.25rem;
-        font-family:
-            "Gilroy-Regular", "Outfit", "Poppins", Arial, Helvetica, sans-serif;
-        font-weight: 500;
-        margin-bottom: 1.5rem;
-
+        text-align: center;
+        margin-bottom: 2rem;
         span {
-            font-size: 2.25rem;
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            font-family: "Gilroy-Regular", "Outfit", sans-serif;
         }
     }
 
@@ -54,7 +47,7 @@
                 font-size: 2.25rem;
                 font-weight: 700;
                 font-family:
-                    "Gilroy-Medium", "Outfit", "Poppins", Arial, Helvetica,
+                    "Gilroy-Light", "Outfit", "Poppins", Arial, Helvetica,
                     sans-serif;
                 color: var(--color-text);
                 margin: 0;
@@ -144,14 +137,14 @@
         justify-content: center;
         margin-bottom: 0;
 
-        h2 {
+        /* h2 {
             padding: 1rem 2.5rem;
             margin-bottom: 2rem;
 
             span {
                 font-size: 3.75rem;
             }
-        }
+        } */
 
         .call {
             flex-direction: row; // Side-by-side layout

@@ -5,16 +5,12 @@
     margin-bottom: 2rem;
 
     h2 {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0 1.25rem;
-        font-family:
-            "Gilroy-Regular", "Outfit", "Poppins", Arial, Helvetica, sans-serif;
-        font-weight: 500;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
         span {
-            font-size: 2.25rem;
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            font-family: "Gilroy-Regular", sans-serif;
         }
     }
 
@@ -22,7 +18,7 @@
         width: 100%;
         max-width: 80rem;
         margin: 0 auto;
-        padding: 1rem 1.25rem;
+        padding: 0rem 1.25rem;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -403,6 +399,8 @@
                     h3 {
                         font-size: 2rem;
                         color: var(--color-text);
+                        font-family:
+                            "Gilroy-Regular", "Outfit", arial, sans-serif;
                     }
                     p {
                         font-size: 1.125rem;
@@ -453,12 +451,12 @@
     .whychooseus {
         min-height: 100vh;
 
-        h2 {
+        /* h2 {
             padding: 1rem 2.5rem;
             span {
                 font-size: 3.75rem;
             }
-        }
+        } */
 
         .bentogrid .bento {
             min-height: 100vh;
