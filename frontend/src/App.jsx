@@ -8,6 +8,8 @@ import Cta from "./components/sections/Cta";
 import Pricing from "./components/sections/Pricing";
 import Features from "./components/sections/Features";
 import Workflow from "./components/sections/Workflow";
+import Problem from "./components/sections/Problem";
+import Solution from "./components/sections/Solution";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <Navbar />
       <Hero />
       <Proof />
+      <Problem />
+      <Solution />
       <Features />
       <Workflow />
       <Pricing />

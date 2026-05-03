@@ -27,16 +27,12 @@ const Footer = () => {
                 <a href="/">Home</a>
               </li>
               <li>
-                <a
-                  href="https://nikuma.notion.site/Rachna-2f1621b27a448098a3bcf5c730794fc7"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href="/" target="_blank" rel="noopener noreferrer">
                   Blog
                 </a>
               </li>
               <li>
-                <a href="/#workflow">Features</a>
+                <a href="/">Features</a>
               </li>
               <li>
                 <a href="/">Careers</a>
@@ -72,47 +68,27 @@ const Footer = () => {
             <h3>Socials</h3>
             <ul>
               <li>
-                <a
-                  href="https://github.com/bodhniraj/rachna"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href="/" target="_blank" rel="noopener noreferrer">
                   GitHub
                 </a>
               </li>
               <li>
-                <a
-                  href="https://www.linkedin.com/in/nikumadev"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href="/" target="_blank" rel="noopener noreferrer">
                   LinkedIn
                 </a>
               </li>
               <li>
-                <a
-                  href="https://www.facebook.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href="/" target="_blank" rel="noopener noreferrer">
                   Facebook
                 </a>
               </li>
               <li>
-                <a
-                  href="https://instagram.com/nikumadev/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href="/" target="_blank" rel="noopener noreferrer">
                   Instagram
                 </a>
               </li>
               <li>
-                <a
-                  href="https://www.youtube.com/@nikumadev"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href="/" target="_blank" rel="noopener noreferrer">
                   YouTube
                 </a>
               </li>
