@@ -7,6 +7,7 @@ import Faq from "./components/sections/Faq";
 import Cta from "./components/sections/Cta";
 import Pricing from "./components/sections/Pricing";
 import Features from "./components/sections/Features";
+import Workflow from "./components/sections/Workflow";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Hero />
       <Proof />
       <Features />
+      <Workflow />
       <Pricing />
       <Faq />
       <Cta />
