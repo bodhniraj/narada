@@ -4,6 +4,7 @@ import Footer from "./components/shared/Footer";
 import Hero from "./components/sections/Hero";
 import Proof from "./components/sections/Proof";
 import Faq from "./components/sections/Faq";
+import Cta from "./components/sections/Cta";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <Proof />
       <Faq />
+      <Cta />
       <Footer />
     </>
   );

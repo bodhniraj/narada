@@ -217,8 +217,8 @@ Here are the **8 essential pages** you need to build for Narada AI, categorized 
 - [ ] How It Works (3 Steps) #11
 - [ ] Pricing Section (Today) #4
 - [ ] Testimonials Section #12
-- [ ] FAQ (Today) #2
-- [ ] Final CTA (Today) #3
+- [x] FAQ (Today)
+- [x] Final CTA 
 - [x] Footer
 
 ---
